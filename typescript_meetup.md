@@ -58,8 +58,16 @@ In vs-code
 
 ```
 
+---
 
 # Missing
 
 * Converting express requests to interfaces
 * Some mongodb examples
+
+
+----
+
+# Some videos
+
+* https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ
