@@ -48,7 +48,15 @@ const person : Person = { name: "dor", age: 15 }
 # Intersection Types
 
 
+---
 
+# How to start using it
+
+In vs-code
+```typescript
+\\@ts-check
+
+```
 
 
 # Missing
