@@ -21,6 +21,7 @@ footer: Interdoucing Typescript - @dor_sever
 
 * What is typescript
 
+A supert set of javascript!
 
 ---
 
@@ -37,26 +38,37 @@ interface Person {
 const person : Person = { name: "dor", age: 15 }
 ```
 
+
 ---
 
 # Union Types 
+* Allows to define types that contain data of multiple types.
 
 
 
 ---
 
 # Intersection Types
-
+* Allows to define conditional types on values 
 
 ---
 
 # How to start using it
 
-In vs-code
+* TSC
+* tsc --init
+
+---
+
+# Quick intro to the benefits
+
+* In vs-code
 ```typescript
 \\@ts-check
 
 ```
+
+* JsDoc
 
 ---
 
