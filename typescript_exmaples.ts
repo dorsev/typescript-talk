@@ -53,3 +53,6 @@ function area(s: Shape): number {
     }
     // should error here - we didn't handle case "triangle"
 }
+
+type LinkedList<T> = {current:T} & { next: LinkedList<T> } | undefined;
+const people: LinkedList<string> = {current:"dor",next:{current:"bar",next:undefined}}

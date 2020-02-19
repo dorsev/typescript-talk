@@ -161,6 +161,17 @@ function area(s: Shape): number {
 
 ---
 
+
+# Intersection types
+
+```typescript
+type LinkedList<T> = {current:T} & { next: LinkedList<T> } | undefined;
+const people: LinkedList<string> = {current:"dor",next:{current:"bar",next:undefined}}
+```
+
+
+---
+
 # How to start using it
 
 * TSC - the typescript compiler
