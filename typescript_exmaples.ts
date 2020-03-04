@@ -8,19 +8,19 @@ interface Person {
 
 const person: Person = { name: first_name, age: my_age }
 
-const names : string[] = ["dor","noa"];
-const namesArray : Array<string> =  ["dor","noa"];
+const names: string[] = ["dor", "noa"];
+const namesArray: Array<string> = ["dor", "noa"];
 
 let x: [string, number] = ["hello", 10];
 let hello_name = x[0]; //"hello"
 //let unknown = x[4]; //does not compile !!!!
 
 
-const id : string | null = null;
-if(typeof(id)==="string"){
+const id: string | null = "null";
+if (typeof (id) === "string") {
     //id is string here
     id
-}else{
+} else {
     //id is null here
     id
 }
@@ -43,7 +43,7 @@ interface Circle {
 //     kind: "triangle";
 //     asd: number;
 // }
-type Shape = Square | Rectangle | Circle ;
+type Shape = Square | Rectangle | Circle;
 
 function area(s: Shape): number {
     switch (s.kind) {
@@ -54,5 +54,5 @@ function area(s: Shape): number {
     // should error here - we didn't handle case "triangle"
 }
 
-type LinkedList<T> = {current:T} & { next: LinkedList<T> } | undefined;
-const people: LinkedList<string> = {current:"dor",next:{current:"bar",next:undefined}}
+type LinkedList<T> = { current: T } & { next: LinkedList<T> } | undefined;
+const people: LinkedList<string> = { current: "dor", next: { current: "bar", next: undefined } }

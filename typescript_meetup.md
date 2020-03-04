@@ -162,7 +162,7 @@ function area(s: Shape): number {
 ---
 
 
-# Intersection types
+# Union types
 
 ```typescript
 type LinkedList<T> = {current:T} & { next: LinkedList<T> } | undefined;
